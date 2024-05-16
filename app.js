@@ -9,7 +9,7 @@ import { logData } from "./middlewares/logs.js";
 const prisma = new PrismaClient();
 
 const app = express();
-const PORT = 8080;
+const PORT = 3000;
 
 app.set("view engine", "ejs");
 app.set("views", "views");

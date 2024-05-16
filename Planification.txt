@@ -1,0 +1,25 @@
+Tâches à effectuer :
+I-Modélisation et création de la base de données :
+
+ Concevoir un schéma de base de données en tenant compte des relations entre les entités (repas, restaurant, employés, abonnés à la newsletter).
+ Utiliser MySQL pour créer les tables nécessaires en respectant les contraintes d'intégrité référentielle.
+
+II-Création des endpoints :
+
+ Définir les endpoints nécessaires pour les différentes fonctionnalités du site (Home, About, contact, repas, envoi d'email, ajout de repas).
+ Utiliser Express.js pour mettre en place ces routes et gérer les requêtes HTTP.
+
+III-Rendre dynamiques les sections du site :
+
+ Utiliser EJS comme moteur de template pour rendre dynamiques les sections du site telles que les repas, les équipes et les coordonnées des restaurants sur la page d'accueil.
+ Intégrer les données de la base de données dans les templates EJS.
+
+IV-Envoi d'email de remerciement aux nouveaux abonnés :
+
+ Utiliser Nodemailer pour envoyer des emails de remerciement aux nouveaux abonnés à la newsletter.
+ Intégrer un service d'email marketing comme Mailchimp ou SendGrid pour gérer et automatiser l'envoi d'emails.
+
+V-Enregistrement des informations sur les requêtes entrantes :
+
+ Créer des middlewares Express pour enregistrer toutes les informations nécessaires sur les requêtes entrantes dans un fichier texte.
+ Utiliser la méthode Promise API du module fs pour garantir une gestion asynchrone et efficace des fichiers.
