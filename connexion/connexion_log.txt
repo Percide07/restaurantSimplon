@@ -19,3 +19,20 @@
 [2024-05-16T20:05:14.070Z], GET, /about/,  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0, ::ffff:127.0.0.1, 200
 [2024-05-16T20:23:51.882Z], GET, /about/,  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0, ::ffff:127.0.0.1, 200
 [2024-05-16T20:24:01.552Z], GET, /about/,  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0, ::ffff:127.0.0.1, 200
+[2024-05-16T20:39:17.970Z], GET, /,  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0, ::ffff:127.0.0.1, 200
+[2024-05-16T20:39:25.391Z], GET, /home,  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0, ::ffff:127.0.0.1, 200
+[2024-05-16T20:41:14.827Z], GET, /home,  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0, ::ffff:127.0.0.1, 200
+[2024-05-16T20:41:15.051Z], GET, /favicon.ico,  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0, undefined, 200
+[2024-05-16T20:41:34.587Z], GET, /home.ejs,  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0, ::ffff:127.0.0.1, 200
+[2024-05-16T20:49:32.217Z], GET, /home,  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36, ::1, 200
+[2024-05-16T20:49:33.766Z], GET, /img/favicon.ico,  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36, ::1, 200
+[2024-05-16T20:51:38.056Z], GET, /ajouterEmployee,  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36, ::1, 200
+[2024-05-16T20:51:48.054Z], GET, /ajouterRepas,  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36, ::1, 200
+[2024-05-16T20:51:48.541Z], GET, /favicon.ico,  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36, ::1, 200
+[2024-05-16T20:54:24.110Z], GET, /ajouterRepas,  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36, ::1, 200
+[2024-05-16T20:56:42.170Z], POST, /ajouterRepas,  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36, ::1, 200
+[2024-05-16T20:57:51.409Z], POST, /ajouterRepas,  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36, ::1, 200
+[2024-05-16T20:57:53.796Z], GET, /ajouterRepas,  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36, ::1, 200
+[2024-05-16T20:58:39.290Z], POST, /ajouterRepas,  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36, ::1, 200
+[2024-05-16T20:58:44.260Z], GET, /ajouterRepas,  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36, ::1, 200
+[2024-05-16T20:59:54.524Z], POST, /ajouterRepas,  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36, ::1, 200

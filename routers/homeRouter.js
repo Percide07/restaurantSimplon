@@ -4,7 +4,7 @@ import express from "express";
 
 const homeRouter = express.Router();
 
-homeRouter.get("/home", homeController);
+homeRouter.get("/", homeController);
 homeRouter.post("/sendEmail", sendEmail);
 
 export { homeRouter };
