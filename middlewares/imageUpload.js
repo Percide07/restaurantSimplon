@@ -7,16 +7,19 @@ const storage = multer.diskStorage({
     cb(null, "public/img/");
   },
   filename: function (req, file, cb) {
-    cb(null, uuidv4() + "-" + Date.now() + path.extname(file.originalname));
+    const uniqueSuffix = `${uuidv4()}-${Date.now()}${path.extname(file.originalname)}`;
+    cb(null, uniqueSuffix);
   },
 });
 
+
 const upload = multer({
   storage: storage,
-  limits: { fileSize: 10000000 },
+  limits: { fileSize: 10 * 1024 * 1024 }, // 10 Mo
   fileFilter: function (req, file, cb) {
-    if (!file.originalname.match(/\.(jpg|jpeg|png|webp|svg|avif)$/)) {
-      return cb(new Error("Please upload a valid image file"));
+    const allowedExtensions = /\.(jpg|jpeg|png|webp|svg|avif)$/;
+    if (!allowedExtensions.test(path.extname(file.originalname).toLowerCase())) {
+      return cb(new Error("Veuillez télécharger un fichier image valide"));
     }
     cb(null, true);
   },

@@ -14,6 +14,7 @@
       margin: 0;
       padding: 0;
     }
+
     #repasTitle {
       text-align: center;
       margin-top: 50px;
@@ -23,7 +24,7 @@
       font-weight: bold;
     }
     .formInput {
-      width: 100%;
+      width: calc(100% - 22px);
       padding: 10px;
       margin-bottom: 20px;
       border: 1px solid #ccc;
@@ -45,7 +46,12 @@
 
     .formContainer {
       width: 80%;
-      margin-right: 200px;
+      margin: 0 auto; 
+      max-width: 600px;
+      padding: 20px; 
+      background-color: #fff; 
+      border-radius: 8px; 
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     }
   </style>
 </head>
@@ -55,7 +61,7 @@
     action="/ajouterRepas"
     method="POST"
     enctype="multipart/form-data"
-    class="formContainer position-relative mx-auto w-50"
+    class="formContainer"
   >
     <label for="nom" class="formLabel">Nom</label>
     <input type="text" name="nom" class="formInput" required />
